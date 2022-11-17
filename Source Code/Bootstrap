@@ -1,1 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container ">
+      <a class="navbar-brand col-md-8 text-dark " href="#">xtream.</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item  ">
+            <a class="nav-link text-dark " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-dark " href="#">about us</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-dark margin-left-3px" href="#">service</a>
+          </li>
+          <li class="nav-item ">
+
+            <a class="nav-link text-dark " href="#">news</a>
+          </li>
+          <li>
+          <li class="nav-item ">
+            <a class="nav-link text-dark " href="#">contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="bg-image"
+    style="background-image: url('xtremebg.jpg'); width: 100%; height: 100vh; background-size: cover; background-position: center;">
+    <div class="container d-flex align-items-center h-100">
+      <div class="col-5 text-start">
+        <h1 class="fw-bold " style="font-family:serif;">Digital agency business make Big deal</h1>
+        <p>grow your business&boots up sale with best online agencies with us caled Xtream service</p>
+        <button type="button" class="btn btn-light rounded-pill btn-outline-secondary">more about us <i
+            class="bi bi-arrow-right"></i></button>
+        <button type="button" class="btn">SEE LIVE DEMO <i class="bi bi-play-circle-fill"></i></button>
+      </div>
+
+    </div>
+  </div>
+  <div class="container" style="margin-top:-5%">
+    <div class="row  justify-content-around">
+      <div class="card text-center col-md-3">
+        <div class="card-body ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="yellow" class="bi bi-clock-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+          </svg>
+          <h5 class="card-title">market Research</h5>
+          <p class="card-text">Market static Growth & Advanced Analysis</p>
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </div>
+      <div class="card text-center col-md-3" >
+
+        <div class="card-body">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="green" class="bi bi-bar-chart-line"
+            viewBox="0 0 16 16">
+            <path
+              d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z" />
+          </svg>
+          <h5 class="card-title">Financial service</h5>
+          <p class="card-text">Free conultatioon&Bank Loan</p>
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </div>
+      <div class="card text-center col-md-3" >
+        <div class="card-body">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="violet" class="bi bi-megaphone"
+            viewBox="0 0 16 16">
+            <path
+              d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
+          </svg>
+
+
+          <h5 class="card-title">Online maketing</h5>
+          <p class="card-text">Targeted Audience & Alexa Rank</p>
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 d-flex justify-content-center">
+    <div class="row align-items-center justify-content-between ">
+      <div class="col-md-6">
+        <img src="business-english-discussion-questions.jpg"  class="float-right" alt="img" width="400vh" height="250pvh">
+      </div>
+      <div class="col-md-6 ">
+        <p class="text-warning">About us</p>
+        <h1 class="fw-bold " style="font-family:serif;">Best Online Agency With Best rating</h1>
+        <p class="font-weight-light">There are many variation of passages of Lorem lpsum available.but the majarity
+            have suffered alteration in some form,by injected humour</p>
+        <p class="font-weight -normal">if you are going to use a passage of Lorem lpsum,you need to be sure there
+            isn't anything embarrassing</p>
+
+        <button type="button" class="btn btn-warning rounded-pill ">learn more
+        </div>
+
+
+      </div>
+    </div>
+
+  
+    
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 text-start">
+        <p class="text-warning">Acheivement</p>
+
+        <h1 class="fw-bold " style="font-family:serif;">Over hundred completed trusted work counting</h1>
+          suffered alteration in some form,by injected humour</p>
+      </div>
+      <div class="col-6">
+        <div class="row">
+          <div class="col-md-10">
+            <img src="Screenshot (4).png" alt="img" width="300px" height="400px">
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-9">
+        <p class="text-warning">All project</p>
+        <h1 class="fw-bold " style="font-family:serif">project Gallery</h1>
+      </div>
+      <div class="col-md-3 ">
+        <button type="button" class="btn btn-outline-warning rounded-pill">View Gallery</button>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row justify-content-between text-center ">
+      <div class="col-md-3 p-3"><img src="unnamed 3.png" class="img-fluid" alt="Responsive image"></div>
+      <div class="col-md-3 p-3"><img src="unnamed (3).jpg" class="img-fluid" alt="Responsive image"></div>
+      <div class="col-md-3 p-3"><img src="unnamed.jpg" class="img-fluid" alt="Responsive image"></div>
+      <div class="col-md-3 p-3"><img src="unnamed (1).jpg" class="img-fluid" alt="Responsive image"></div>
+    </div>
+    <div class="container mt-4">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-md-3 ">
+          <img src="gd (1).webp" class="" alt="img" width="400vh" height="250pvh">
+        </div>
+        <div class="col-md-6 ">
+          <p class="text-warning">Feedback</p>
+          <h1 class=" fw-bold" style="font-family:serif">What's client say</h1>
+          <p class="fw-light">There are many variation of passages of Lorem lpsum available.but the majarity have
+            suffered alteration in some form,by injected humour</p>
+          <p class="fw-normal">if you are going to use a passage of Lorem lpsum,you need to be sure there isn't anything
+            embarrassing</p>
+          <button type="button" class="btn btn-warning rounded-pill ">learn more
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class=" text-center text-lg-start mt-5">
+  
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <h4 class=" fw-bold text-dark text-decoration-none" style="font-family:serif">xtream</h4>
+
+          <ul class="list-unstyled mb-0">
+
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">extreme.inc@company.com </a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark fw-bold">222.456.8868 </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4 class=" fw-bold text-dark" style="font-family:serif">Service</h4>
+
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">web design</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">Development</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">Wordpress</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">online Marketing</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">Contact</a>
+            </li>
+
+
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4 class=" fw-bold text-dark" style="font-family:serif">About us</h4>
+
+
+          <ul class="list-unstyled mb-0">
+
+            <a href="#!" class="text-dark text-decoration-none">Work portfolio</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">Team</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">Plan&pricing</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">News</a>
+            </li>
+          </ul>
+        </div>
+      
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4 class=" fw-bold text-dark" style="font-family:serif">Our address</h4>
+
+
+          <ul class="list-unstyled">
+
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">172/CDA,Agrabad</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark text-decoration-none">Chattogram,bangladash</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 text-secondary ">
+      <small>© 2020 Copyright: MDBootstrap.com</small>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+    
+
+
+</body>
+
+</html>
